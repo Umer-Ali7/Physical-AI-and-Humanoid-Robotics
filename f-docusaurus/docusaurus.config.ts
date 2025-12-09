@@ -107,11 +107,6 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
-        {
-          href: 'https://panaversity.org',
-          label: 'Panaversity',
-          position: 'right',
-        },
       ],
     },
     footer: {

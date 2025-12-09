@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import ChatWidget from '@site/src/components/ChatWidget';
 
 import styles from './index.module.css';
 
@@ -13,10 +14,10 @@ function HomepageHeader() {
       <div className="container">
         <div className={styles.heroContent}>
           <Heading as="h1" className={clsx('hero__title', styles.mainTitle)}>
-            Build the Body. Code the Brain.
+            Physical AI
           </Heading>
           <p className={clsx('hero__subtitle', styles.subTitle)}>
-            The World's First Spec-Driven Course on Physical AI & Humanoid Robotics.
+            Build the Body. Code the Brain. The World's First Spec-Driven Course on Physical AI & Humanoid Robotics.
           </p>
           <div className={styles.buttons}>
             <Link
@@ -82,6 +83,7 @@ export default function Home(): ReactNode {
       <main>
         <HomepageFeatures />
       </main>
+      <ChatWidget />
     </Layout>
   );
 }
