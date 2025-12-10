@@ -56,6 +56,15 @@ html:not([data-theme='dark']) .heroBanner {
   }
 }
 
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 /* Light mode title */
 html:not([data-theme='dark']) .mainTitle {
   background: linear-gradient(135deg, #0088cc 0%, #7c3aed 50%, #0088cc 100%);
