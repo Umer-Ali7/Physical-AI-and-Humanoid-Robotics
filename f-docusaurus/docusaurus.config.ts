@@ -103,9 +103,15 @@ const config: Config = {
           ],
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Umer-Ali7/Physical-AI-and-Humanoid-Robotics',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          to: '/login',
+          label: 'Login',
+          position: 'right',
+          className: 'navbar-login-btn',
         },
       ],
     },
@@ -142,7 +148,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Umer-Ali7/Physical-AI-and-Humanoid-Robotics',
             },
             {
               label: 'Panaversity',
